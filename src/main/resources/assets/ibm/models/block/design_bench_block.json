@@ -1,0 +1,12 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+	   "up": "ibm:blocks/design_bench_block_up",
+       "down": "ibm:blocks/design_bench_block_down",
+       "south": "ibm:blocks/design_bench_block_south",
+       "north": "ibm:blocks/design_bench_block_north",
+       "west": "ibm:blocks/design_bench_block_west",
+       "east": "ibm:blocks/design_bench_block_east",
+       "particle": "ibm:blocks/design_bench_block_down"
+   }
+}

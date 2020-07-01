@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "DDD",
+        "PCP",
+        "PPP"  ],
+    "key": {
+        "D": [{
+                "item": "ibm:design", "data": 0
+        }],
+        "C": [{
+                "item": "minecraft:crafting_table", "data": 0
+        }],
+        "P": [{
+                "item": "minecraft:planks", "data": 0
+        }]
+    },
+    "result": {
+        "item": "ibm:design_bench_block",
+        "data": 0
+    }
+}

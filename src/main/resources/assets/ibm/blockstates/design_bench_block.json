@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "ibm:design_bench_block" }
+    }
+}

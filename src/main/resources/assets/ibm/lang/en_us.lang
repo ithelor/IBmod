@@ -1,3 +1,9 @@
-item.design.name=Design
+item.pink_ingot.name=Pink Ingot
 
-tile.design_bench_block.name=Design Bench
+tile.pink_ore_block.name=Pink Ore
+
+item.pink_sword.name=Pink Sword
+item.pink_pickaxe.name=Pink Pickaxe
+item.pink_spade.name=Pink Showel
+item.pink_hoe.name=Pink Hoe
+item.pink_axe.name=Pink Axe

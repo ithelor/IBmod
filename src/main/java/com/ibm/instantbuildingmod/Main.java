@@ -1,5 +1,6 @@
 package com.ibm.instantbuildingmod;
 
+import com.ibm.instantbuildingmod.init.ModRecipes;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -30,7 +31,7 @@ public class Main
 	@EventHandler
 	public static void init(FMLInitializationEvent event)
 	{
-
+		ModRecipes.Init();
 	}
 
 	@EventHandler

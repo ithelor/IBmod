@@ -8,5 +8,7 @@ public class Reference {
 	public static final String ACCEPTED_VERSIONS = "[1.10.2]";
 	public static final String CLIENT_PROXY_CLASS = "com.ibm.instantbuildingmod.proxy.ClientProxy";
 	public static final String COMMON_PROXY_CLASS = "com.ibm.instantbuildingmod.proxy.CommonProxy";
+
+	public static final int GUI_PINK_ORE_BLOCK = 0;
 	
 }

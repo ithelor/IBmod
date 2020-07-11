@@ -1,9 +1,19 @@
+itemGroup.ibm=IBM
+
+item.pink_dust.name=Pink Dust
+item.pink_shard.name=Pink Shard
 item.pink_ingot.name=Pink Ingot
 
-tile.pink_ore_block.name=Pink Ore
+tile.pink_ore.name=Pink Ore
+tile.pink_block.name=Pink Block
 
 item.pink_sword.name=Pink Sword
 item.pink_pickaxe.name=Pink Pickaxe
 item.pink_spade.name=Pink Showel
 item.pink_hoe.name=Pink Hoe
 item.pink_axe.name=Pink Axe
+
+item.pink_helmet.name=Pink Helmet
+item.pink_chestplate.name=Pink Chestplate
+item.pink_leggings.name=Pink Leggings
+item.pink_boots.name=Pink Boots

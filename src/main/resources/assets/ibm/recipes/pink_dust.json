@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients":
+    [
+
+        {
+            "item": "ibm:pink_shard"
+        },
+
+        {
+            "item": "minecraft:iron_ingot"
+        }
+
+    ],
+
+    "result":
+    {
+        "item": "ibm:pink_dust",
+        "count": 1
+    }
+}

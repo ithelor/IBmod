@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+
+    "pattern":
+    [
+        "SSS",
+        "SSS",
+        "SSS"
+    ],
+
+    "key":
+    {
+        "S":
+        {
+            "item": "ibm:pink_shard"
+        }
+    },
+
+    "result":
+    {
+        "item": "ibm:pink_block",
+        "count": 1
+    }
+}

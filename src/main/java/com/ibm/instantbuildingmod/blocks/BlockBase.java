@@ -23,6 +23,8 @@ public class BlockBase extends Block implements IHasModel
 		setCreativeTab(CreativeTabs.DECORATIONS);
 		
 		ModBlocks.BLOCKS.add(this);
+		setCreativeTab(Main.IBM_TAB);
+
 		ModItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
 	}
 

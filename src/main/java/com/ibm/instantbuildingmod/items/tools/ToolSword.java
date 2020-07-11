@@ -17,6 +17,7 @@ public class ToolSword extends ItemSword implements IHasModel
         setCreativeTab(CreativeTabs.DECORATIONS);
 
         ModItems.ITEMS.add(this);
+        setCreativeTab(Main.IBM_TAB);
     }
 
     @Override

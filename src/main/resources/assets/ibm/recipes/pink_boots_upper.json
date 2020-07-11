@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+
+    "pattern":
+    [
+        "I I",
+        "I I",
+        "   "
+    ],
+
+    "key":
+    {
+        "I":
+        {
+            "item": "ibm:pink_ingot"
+        }
+    },
+
+    "result":
+    {
+        "item": "ibm:pink_boots",
+        "count": 1
+    }
+}

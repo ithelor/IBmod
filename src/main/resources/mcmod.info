@@ -1,14 +1,14 @@
 [
 {
   "modid": "ibm",
-  "name": "Instant Building Mod",
-  "description": "Example placeholder mod.",
+  "name": "IBM",
+  "description": "University Java project.",
   "version": "1.0",
-  "mcversion": "1.10.2",
+  "mcversion": "1.12.2",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML bois, for making that example",
+  "authorList": ["Glebov Evgeniy, Dietrich Vladislav"],
+  "credits": "The Forge and FML bois",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

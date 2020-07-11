@@ -7,7 +7,7 @@ public class ModRecipes
 {
     public static void Init()
     {
-        GameRegistry.addSmelting(ModBlocks.PINK_ORE_BLOCK, new ItemStack(ModItems.PINK_INGOT, 1), 1.5F);
-        //GameRegistry.addSmelting();
+        GameRegistry.addSmelting(ModItems.PINK_DUST, new ItemStack(ModItems.PINK_INGOT, 1), 6.0F);
+        GameRegistry.addSmelting(ModBlocks.PINK_ORE, new ItemStack(ModItems.PINK_SHARD, 1), 4.0F);
     }
 }

@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+
+    "pattern":
+    [
+        "II ",
+        "IS ",
+        " S "
+    ],
+
+    "key":
+    {
+        "I":
+        {
+            "item": "ibm:pink_ingot"
+        },
+        "S":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+
+    "result":
+    {
+        "item": "ibm:pink_axe",
+        "count": 1
+    }
+}

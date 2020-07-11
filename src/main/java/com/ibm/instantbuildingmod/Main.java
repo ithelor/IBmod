@@ -1,6 +1,8 @@
 package com.ibm.instantbuildingmod;
 
+import com.ibm.instantbuildingmod.creativetabs.IBMTab;
 import com.ibm.instantbuildingmod.init.ModRecipes;
+import com.ibm.instantbuildingmod.world.ModWorldGen;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -11,10 +13,13 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 import com.ibm.instantbuildingmod.proxy.CommonProxy;
 import com.ibm.instantbuildingmod.util.Reference;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION)
 public class Main
 {
+
+	public static final IBMTab IBM_TAB = new IBMTab();
 	
 	@Instance
 	public static Main instance;
@@ -25,7 +30,7 @@ public class Main
 	@EventHandler
 	public static void PreInit(FMLPreInitializationEvent event)
 	{
-
+		GameRegistry.registerWorldGenerator(new ModWorldGen(), 3);
 	}
 
 	@EventHandler
